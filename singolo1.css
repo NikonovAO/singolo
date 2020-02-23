@@ -1,0 +1,232 @@
+@font-face {
+    font-family: Lato;
+    src: url(./assets/Lato-Regular.ttf);
+   }
+   @font-face {
+    font-family: Lato-Light;
+    src: url(./assets/Lato-Light.ttf);
+   }
+
+a{
+    color:white;
+    text-decoration: none;
+}
+a:link{
+    color: white;
+    text-decoration: none;
+}
+a:visited{
+    color: #f06c64;
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+    text-decoration: none;
+}
+a:active{
+    color: #f06c64;
+    text-decoration: none;
+}
+
+/*Header block*/
+header{
+    width: 1020px;
+    height: 89px;
+    background-color: #2d2f39;
+    position: relative;
+}
+    h1{
+        font-size: 25px;
+        line-height: 6px;
+        color: #ffffff;
+        font-family: "Lato-Light";
+        font-weight: 700; 
+        width: 115px;
+        height: 20px;
+        position: absolute;
+        margin-left: 40px;
+        margin-top: 40px;
+        letter-spacing: -0.5px;
+    }
+    .navigation ul{
+        width: 450px;
+        height: 10px;
+        position: absolute;
+        margin-left: 555px;
+        margin-top: 33px;
+    }
+     .navigation li{
+        font-size: 12px;
+        line-height: 6px;
+        font-family: "Lato-Light";
+        font-weight: 700;
+        display: inline-block;
+        padding: 13px;
+     
+    }
+    .dot{
+        color: #494e62;
+        position: absolute;
+        margin-top: 0px;
+        margin-left: -20px;
+    }
+    .headerBottom{
+        width: 1020px;
+        height: 6px;
+        background-color: #323746;
+        position: absolute;
+        margin-top: 89px;
+    }
+/*Main block*/
+main{
+    width: 1020px;
+    height: 600px;
+    background-color: #f06c64;
+    position: relative;
+    margin-top: 6px;
+}
+.ChevLeft{
+    position: absolute;
+    margin-top: 281px;
+    margin-left: 42px;
+}
+.ChevRight{
+    position: absolute;
+    margin-top: 281px;
+    margin-left: 964px;
+}
+.iPhoneVerticalShadow{
+    position: absolute;
+    margin-top: 53px;
+    margin-left: 112px;
+    z-index: 1;
+}
+.iPhoneVerticalBase{
+    position: absolute;
+    margin-top: 53px;
+    margin-left: 112px;
+    z-index: 2;
+}
+.iPhoneVerticalDisplay{
+    position: absolute;
+    margin-top: 118px;
+    margin-left: 126px;
+    z-index: 3;
+    width: 188px;
+    height: 333px;
+    overflow: hidden;
+}
+.iPhoneHorizontalShadow{
+    position: absolute;
+    margin-top: 174px;
+    margin-left: 426px;
+    z-index: 1;
+}
+.iPhoneHorizontalBase{
+    position: absolute;
+    margin-top: 174px;
+    margin-left: 425px;
+    z-index: 2;
+}
+.iPhoneHorizontalDisplay{
+    position: absolute;
+    margin-top: 188px;
+    margin-left: 485px;
+    z-index: 3;
+    width: 333px;
+    height: 188px;
+    overflow: hidden;
+}
+.mainBottom{
+    width: 1020px;
+    height: 6px;
+    background-color: #ea676b;
+    position: absolute;
+    margin-top: 594px;
+}
+/*Our services Block*/
+.our_services{
+    width: 1020px;
+    height: 494px;
+    background-color: #f2f2f2;
+}
+/*Uor Service Block */
+.services{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    height: 120px;
+}
+.service-item1{
+    /*width: 320px;*/
+    width: 33%;  
+}
+
+.our-service-title{
+    font-size: 30px;
+    line-height: 18px;
+    color: #666d89;
+    font-family: "Lato";
+    font-weight: 900;
+    margin-top: 68px;
+    margin-left: 40px;
+    letter-spacing: 0.5px;
+}
+.our-service-content{
+    width: 949px;
+    height: 57px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #767e9e;
+    font-family: "Lato";
+    font-weight: 300;
+    text-align: left;
+    margin-top: 27px;
+    margin-left: 40px;
+    text-overflow: clip;
+
+}
+.service_item_image{
+    width: 60px;
+    /*padding: 10px;*/
+    vertical-align: top;
+    display: inline-block;
+    margin-left: 20px;
+    /*padding-top: 10px;*/
+    padding-left: 20px;
+    margin-top: 50px;
+}
+.service_item_content{
+    width:220px;
+    vertical-align: top;
+    padding: -10px;
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 35px;
+}
+h2{
+    font-size: 18px;
+    line-height: 18px;
+    color: #666d89;
+    font-family: "Lato";
+    font-weight: 900;
+    text-align: left;
+}
+p{
+    width: 219px;
+    height: 60px;
+    font-size: 12px;
+    line-height: 22px;
+    color: #767e9e;
+    font-family: "Lato";
+    font-weight: 400;
+    text-align: left;
+}
+.bgBottom{
+    width: 1020px;
+    height: 6px;
+    background-color: #ffffff;
+    position: absolute;
+    margin-top: 489px;
+}
