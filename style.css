@@ -35,7 +35,7 @@ header{
         font-size: 25px;
         line-height: 6px;
         color: #ffffff;
-        font-family: "Lato-Light";
+        font-family: "Lato";
         font-weight: 700; 
         width: 115px;
         height: 20px;
@@ -54,7 +54,7 @@ header{
      .navigation li{
         font-size: 12px;
         line-height: 6px;
-        font-family: "Lato-Light";
+        font-family: "Lato";
         font-weight: 700;
         display: inline-block;
         padding: 13px;
@@ -76,10 +76,15 @@ header{
 /*Main block*/
 main{
     width: 1020px;
+    position: absolute;
+}
+/*Section Slider*/
+.slider{
+    width: 1020px;
     height: 600px;
     background-color: #f06c64;
-    position: relative;
-    margin-top: 6px;
+    position: absolute;
+    top:6px;
 }
 .ChevLeft{
     position: absolute;
@@ -133,20 +138,21 @@ main{
     height: 188px;
     overflow: hidden;
 }
-.mainBottom{
+.sliderBottom{
     width: 1020px;
     height: 6px;
     background-color: #ea676b;
     position: absolute;
     margin-top: 594px;
 }
-/*Our services Block*/
+/*Section Our services*/
 .our_services{
     width: 1020px;
     height: 494px;
     background-color: #f2f2f2;
+    position: absolute;
+    top: 606px;
 }
-/*Uor Service Block */
 .services{
     display: flex;
     flex-direction: row;
@@ -155,10 +161,9 @@ main{
     height: 120px;
 }
 .service-item1{
-    /*width: 320px;*/
+    width: 320px;
     width: 33%;  
 }
-
 .our-service-title{
     font-size: 30px;
     line-height: 18px;
@@ -181,15 +186,12 @@ main{
     margin-top: 27px;
     margin-left: 40px;
     text-overflow: clip;
-
 }
 .service_item_image{
     width: 60px;
-    /*padding: 10px;*/
     vertical-align: top;
     display: inline-block;
     margin-left: 20px;
-    /*padding-top: 10px;*/
     padding-left: 20px;
     margin-top: 50px;
 }
@@ -219,131 +221,111 @@ p{
     font-weight: 400;
     text-align: left;
 }
-.bgBottom{
+.our-services-Bottom{
     width: 1020px;
     height: 6px;
     background-color: #ffffff;
     position: absolute;
-    margin-top: 489px;
+    margin-top: 374px;
 }
-
-a{
-    color:white;
-    text-decoration: none;
+/*Section Portfolio*/
+.portfolio{
+    width: 1020px;
+    height: 1597px; /*!!!!!!!!!!!869 !!!*/
+    background-color: #2d303a;
+    position: absolute;
+    top:1106px;
 }
-a:link{
-    color: white;
-    text-decoration: none;
-}
-a:visited{
-    color: #767e9e;
-    text-decoration: none;
-}
-a:hover{
-    color: white;
-    text-decoration: none;
-}
-a:active{
-    color: #f06c64;
-    text-decoration: none;
-}
-
-/*Header block*/
-header{
+/*portfolio header*/
+.portfolio-header{
     width: 1020px;
     height: 190px;
-    background-color: #2d303a;
-    position: relative;
+    position: absolute;
+    top:-1px;
 }
-    h1{
-        font-size: 30px;
-        line-height: 18px;
-        color: #666d89;
-        font-family: "Lato";
-        font-weight: 900;
-        text-align: left;
-        width: 115px;
-        height: 24px;
-        position: absolute;
-        margin-left: 42px;
-        margin-top: 71px;
-        /*letter-spacing: -0.5px;*/
-    }
-    p{
-        font-size: 18px;
-        line-height: 30px;
-        color: #767e9e;
-        font-family: "Lato";
-        font-weight: 300;
-        text-align: left;
-        width: 900px;
-        height: 17px;
-        position: absolute;
-        margin-left: 42px;
-        margin-top: 115px;
-        
-    }
-    .navigation ul{
-        width: 1020px;
-        height: 23px;
-        position: absolute;
-        margin-left: 1px;
-        margin-top: 155px;
-    }
-     .navigation li{
-        font-size: 12px;
-        line-height: 20px;
-        color: #767e9e;
-        font-family: "Lato";
-        font-weight: 400;
-        text-align: left;
-        letter-spacing: 0.5px;
-        display: inline-block;
-        padding: 0px 5px;
-        border: 1px solid #666d89;
-        border-radius: 5px;
-        margin-right: 7px;
-    }
-
-/*Main block +*/
-main{
+.portfolio-header h1{
+    font-size: 30px;
+    line-height: 18px;
+    color: #666d89;
+    font-family: "Lato";
+    font-weight: 900;
+    text-align: left;
+    width: 115px;
+    height: 24px;
+    position: absolute;
+    margin-left: 42px;
+    margin-top: 71px;
+}
+.portfolio-header p{
+    font-size: 18px;
+    line-height: 30px;
+    color: #767e9e;
+    font-family: "Lato";
+    font-weight: 300;
+    text-align: left;
+    width: 900px;
+    height: 17px;
+    position: absolute;
+    margin-left: 42px;
+    margin-top: 115px;
+}
+.portfolio-navigation ul{
     width: 1020px;
-    height: 680px; /* 870 - 180 header = 690*/
-    background-color: #2d303a;
-    position: relative;
+    height: 23px;
+    position: absolute;
+    margin-left: 1px;
+    margin-top: 155px;
 }
-
+.portfolio-navigation li{
+    font-size: 12px;
+    line-height: 20px;
+    color: #767e9e;
+    font-family: "Lato";
+    font-weight: 400;
+    text-align: left;
+    letter-spacing: 0.5px;
+    display: inline-block;
+    padding: 0px 5px;
+    border: 1px solid #666d89;
+    border-radius: 5px;
+    margin-right: 7px;
+    }
+/*end portfolio header*/
+/*portfolio content*/
 .portfolio-content{
+    width: 1020px;
+    height: 610px; /* 870 - 180 header = 620*/
+    background-color: #2d303a;
+    position: absolute;
+    top:189px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    height: 620px;
     overflow: hidden;
-
 }
-
 .portfolio-image{
+    width: 220px;
+    height: 187px;
     margin-top: 6px;
     margin-bottom: 14px;
     margin-left: 10px;
     margin-right: 10px;
 }
-
-.mainBottom{
+.portfolio-content-Bottom{
     width: 1020px;
     height: 6px;
     background-color: #323746;
     position: absolute;
-    margin-top: 53px;
+    margin-top: 863px;
 }
-
-
-/*Блок About Us*/
+/*portfolio about us*/
 .about-us{
     width: 1020px;
     height: 728px;
     background-color: #f2f2f2;
+    position: absolute;
+    margin-top: 869px;
 }
 .about-title{
     font-size: 30px;
@@ -375,14 +357,14 @@ main{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-
 }
 .about{
-    margin-top: 218px;
+    /*position: absolute;
+    top: 400px;*/
+   margin-top: 218px;
     margin-left: 39px;
     margin-right: -19px;
 }
-
 .about-image{
     width: 300px;
 }
@@ -406,20 +388,20 @@ main{
     margin-top: 9px;
     letter-spacing: 0.3px;
 }
-
 .about-social{
     display: inline-block;
     margin-top: 22px;
     margin-left: 2px;
     letter-spacing: 4px;
 }
-.aboutBottom{
+.portfolio-about-Bottom{
     width: 1020px;
     height: 6px;
     background-color: #ffffff;
     position: absolute;
     margin-top: 728px;
 }
+/*
 main{
     width: 1020px;
     height: 600px;
@@ -429,26 +411,7 @@ main{
 }
 
 
-h2{
-    font-size: 18px;
-    line-height: 18px;
-    color: #666d89;
-    font-family: "Lato";
-    font-weight: 900;
-    text-align: left;
-}
-p{
-    width: 219px;
-    height: 60px;
-    font-size: 12px;
-    line-height: 22px;
-    color: #767e9e;
-    font-family: "Lato";
-    font-weight: 400;
-    text-align: left;
-}
 
-/*Header block*/
     h1{
         font-size: 30px;
         line-height: 18px;
@@ -461,7 +424,7 @@ p{
         position: absolute;
         margin-left: 42px;
         margin-top: 71px;
-        /*letter-spacing: -0.5px;*/
+
     }
     p{
         font-size: 18px;
@@ -479,7 +442,7 @@ p{
     }
 
 
-/*Main block +*/
+
 .get-a-quote{
 
 }
@@ -495,4 +458,4 @@ p{
     height: 77px;
     background-color: #2d303a;
     position: absolute;
-}
+}*/
