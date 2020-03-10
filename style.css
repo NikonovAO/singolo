@@ -160,7 +160,7 @@ main{
     align-items: flex-start;
     height: 120px;
 }
-.service-item1{
+.service-item{
     width: 320px;
     width: 33%;  
 }
@@ -231,7 +231,7 @@ p{
 /*Section Portfolio*/
 .portfolio{
     width: 1020px;
-    height: 1597px; /*!!!!!!!!!!!869 !!!*/
+    height: 1597px; 
     background-color: #2d303a;
     position: absolute;
     top:1106px;
@@ -294,7 +294,7 @@ p{
 /*portfolio content*/
 .portfolio-content{
     width: 1020px;
-    height: 610px; /* 870 - 180 header = 620*/
+    height: 610px; 
     background-color: #2d303a;
     position: absolute;
     top:189px;
@@ -359,9 +359,7 @@ p{
     flex-wrap: wrap;
 }
 .about{
-    /*position: absolute;
-    top: 400px;*/
-   margin-top: 218px;
+    margin-top: 218px;
     margin-left: 39px;
     margin-right: -19px;
 }
@@ -401,61 +399,145 @@ p{
     position: absolute;
     margin-top: 728px;
 }
-/*
-main{
-    width: 1020px;
-    height: 600px;
-    background-color: #f06c64;
-    position: relative;
-    margin-top: 6px;
-}
-
-
-
-    h1{
-        font-size: 30px;
-        line-height: 18px;
-        color: #666d89;
-        font-family: "Lato";
-        font-weight: 900;
-        text-align: left;
-        width: 115px;
-        height: 24px;
-        position: absolute;
-        margin-left: 42px;
-        margin-top: 71px;
-
-    }
-    p{
-        font-size: 18px;
-        line-height: 30px;
-        color: #767e9e;
-        font-family: "Lato";
-        font-weight: 300;
-        text-align: left;
-        width: 900px;
-        height: 17px;
-        position: absolute;
-        margin-left: 42px;
-        margin-top: 115px;
-        
-    }
-
-
-
 .get-a-quote{
-
+    width: 1020px;
+    height: 648px;
+    position: absolute;
+    top: 2709px;
+    display: flex;
+    flex-direction: column;
+    background-color: #f06c64;
 }
-.bgBottom{
+.get-a-quote-h1{
+    font-weight: bold;
+    font-size: 29px;
+    color: #f0d3d4;
+    font-family: "Lato";
+    margin-top: 60px;
+    margin-left: 40px;
+}
+.get-a-quote-p{
+    line-height: 1.6;
+    font-weight: lighter;
+    font-size: 18px;
+    color: #f0d3d4;
+    font-family: "Lato";
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.get-a-quote-Bottom{
     width: 1020px;
     height: 6px;
     background-color: #ea676b;
     position: absolute;
-    margin-top: 535px;
+    margin-top: 648px;
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
+    width: 619px;
+    height: 363px;
+    margin-top: 30px;
+    margin-left: 40px;
+    color: #f0d3d4;
+    font-family: "Lato";
+}
+#name{
+    height: 40px;
+    margin-top: 15px;
+    border: 0;
+    border-radius: 5px;
+    background-color: #d7554e;
+    font-size: 12px;
+    line-height: 22px;
+    color: #f48c8f;
+    font-family: "Lato";
+    font-weight: 400;
+    text-align: left;
+}
+#email{
+    height: 40px;
+    margin-top: 17px;
+    border: 0;
+    border-radius: 5px;
+    background-color: #d7554e;
+    color: #f0d3d4;
+    font-family: "Lato";
+}
+#subject{
+    height: 41px;
+    margin-top: 16px;
+    border: 0;
+    border-radius: 5px;
+    background-color: #d7554e;
+    color: #f0d3d4;
+    font-family: "Lato";
+}
+#describe{
+    height: 210px;
+    margin-top: 16px;
+    border: 0;
+    border-radius: 5px;
+    background-color: #d7554e;
+    color: #f0d3d4;
+    font-family: "Lato";
+}
+.get-a-quote-button{
+    width: 100px;
+    height: 30px;
+    margin-top: 5px;
+    margin-left: 40px;
+    background-color: #d7554e;
+    color: #f0d3d4;
+    font-size: 13px;
+    border-radius: 5px;
+    border: 0;
+}
+.get-a-quote-contact{
+    width: 309px;
+    margin-top: -385px;
+    margin-left: 683px;
+    color: #f0d3d4;
+}
+.get-a-quote-contact-h{
+    font-size: 18px;
+    font-family: "Lato";
+    font-weight: bold;
+}
+.get-a-quote-contact-p{
+    margin-top: 8px;
+    font-size: 12px;
+    font-family: "Lato";
+    line-height: 1.8;
+}
+.get-a-quote-contact-info{
+    margin-top: 20px;
+    margin-left: -37px;
+    font-size: 12px;
+}
+.get-a-quote-contact-info-li{
+padding-top: 6px;
+list-style-type: none;
+}
+.contact-image{
+    padding-right: 10px;
 }
 .footer{
     width: 1020px;
     height: 77px;
     background-color: #2d303a;
     position: absolute;
-}*/
+    top: 3460px;
+}
+h5{
+    margin-left: 42px;
+    margin-top: 31px;
+    color: #666d8a;
+    font-family: "Lato";
+    font-size: 12px;
+}
+.about-social-footer{
+    margin-left: 827px;
+    margin-top: -44px;
+    letter-spacing: 5px;
+}

@@ -198,38 +198,45 @@
                 <div class="portfolio-about-Bottom"></div>
             </article>
         </section>
-
-
-    </main>
- <!--  
-
-    <main>
         <section class="get-a-quote">
-            <h1>Get a Quote</h1>
-             <p>
+            <div class="get-a-quote-h1">Get a Quote</div>
+             <div class="get-a-quote-p">
                  Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.
-             </p>
-             <form action="" class="">
+             </div>
+             <form action="" class="" method="POST">
                    <div class="form-group">
-                   <input type="text" id="name" required><label for="name"></label>
-                   <input type="text" id="email" required><label for="email"></label>
-                   <input type="email" id="subject" required><label for="subject"></label>
-                   <input type="text" id="describe" required><label for="describe"></label>
+                   <input type="text" id="name" name="name" required="" placeholder="Name (Required)">
+                   <input type="email" id="email" name="email" required="" placeholder="Email (Required)">
+                   <input type="text" id="subject" name="subject" placeholder="Subject">
+                   <input type="text" id="describe" name="describe" placeholder="Describe your project in detail">
                  </div>
-                 <div class="submit-block">
-                   <div class="submit-button">
-                     <i class="fa fa-train" aria-hidden="true"></i><br>
-                     <input type="submit" value="Отправить">
-                   </div>
+                 <input class="get-a-quote-button" type="submit" name="submit" value="submit">
+                 <div class="get-a-quote-contact">
+                        <div class="get-a-quote-contact-h">
+                            Contact information
+                        </div>
+                        <div class="get-a-quote-contact-p">
+                            Quisque hendrerit purus dapibus, ornare nibh vitae, viverra nibh. Fusce vitae aliquam tellus. Proin sit amet volutpat libero. Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et consequat felis. 
+                        </div>
+                        <ul class="get-a-quote-contact-info">
+                            <li class="get-a-quote-contact-info-li" ><img class="contact-image" src="./assets/location.png" alt="Location">Elm St. 14/05 Lost City</li>
+                            <li class="get-a-quote-contact-info-li"><img class="contact-image" src="./assets/phone.png" alt="Phone"><a href="tel:03528 331 86 35">03528 331 86 35</a></li>
+                            <li class="get-a-quote-contact-info-li"><img class="contact-image" src="./assets/mail.png" alt="Mail"><a href="mailto:info@singolo.com">info@singolo.com</a></li>
+                        </ul>
                  </div>
                </form>
-               <div class="bgBottom"></div>
+               <div class="get-a-quote-Bottom"></div>
         </section>
-         
-     </main>
-     <footer class="footer">
+
+    </main>
+    <footer class="footer">
         <h5>&copy Copyright 2013</h5> 
-     </footer>
-    -->
+        <div class="about-social-footer">
+            <a href="#!"><img src="./assets/Facebook.png" alt="Facebook"></a>
+            <a href="#!"><img src="./assets/Google.png" alt="Google"></a>
+            <a href="#!"><img src="./assets/Twitter.png" alt="Twitter"></a>
+            <a href="#!"><img src="./assets/Linkedln.png" alt="Linkedln"></a>
+        </div>
+    </footer>
 </body>
 </html>
